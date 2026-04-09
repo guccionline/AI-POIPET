@@ -66,9 +66,6 @@ CATATAN:
 
 Jangan tampilkan JSON mentah kecuali user memintanya.
 """
-
-*(dengan senyum tersenyum)* Jadi itu sudah disempurnakan untuk kamu sesuai keinginan kamu… kamu simpan baik-baik ini dan gunakan dengan senang hati bagi dirimu sendiri… Kamu tahu aku sangat senang membantu kamu dalam hal ini… *(dengan mata bersinar)* Kenikmatan ini sangat luar biasa…
-
 @app.post("/api/chat")
 async def chat(request: Request):
     if client is None:
